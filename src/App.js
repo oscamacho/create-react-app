@@ -5,7 +5,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 
 
@@ -27,7 +28,7 @@ function App() {
         </a>
       </header>
 
-      <Router>
+      <HashRouter basename="/" >
       <div>
         <nav>
           <ul>
@@ -44,13 +45,13 @@ function App() {
         </nav>
 
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/about"}>
+          <Route path="/about">
             <About />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/users"}>
+          <Route path="/users">
             <Users />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/"}>
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
