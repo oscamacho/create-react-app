@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reloaaaaaad fucino.
+          Edit <code>src/App.js</code> and soventemente to reloaaaaaad fucino.
         </p>
         <a
           className="App-link"
@@ -23,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactmybonn
         </a>
       </header>
 
