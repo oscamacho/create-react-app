@@ -43,8 +43,6 @@ function App() {
           </ul>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
             <About />
@@ -73,7 +71,7 @@ const About = () =>
     <h1>about pages</h1>
   </div>;
 
-const User = () => 
+const Users = () => 
 <div>
   <h1>User</h1>
 </div>
