@@ -44,13 +44,13 @@ function App() {
         </nav>
 
         <Switch>
-          <Route path="/about">
+          <Route path={process.env.PUBLIC_URL + "/about"}>
             <About />
           </Route>
-          <Route path="/users">
+          <Route path={process.env.PUBLIC_URL + "/users"}>
             <Users />
           </Route>
-          <Route path="/">
+          <Route path={process.env.PUBLIC_URL + "/"}>
             <Home />
           </Route>
         </Switch>
